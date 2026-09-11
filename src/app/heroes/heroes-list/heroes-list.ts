@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  imports: [],
   selector: 'app-heroes-list',
+  standalone: false,
   styleUrl: './heroes-list.css',
   templateUrl: './heroes-list.html',
 })
